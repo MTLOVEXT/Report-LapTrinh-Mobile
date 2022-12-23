@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="#BA6313"
+    android:background="#1e90ff"
     android:gravity="center"
     android:orientation="vertical"
     android:weightSum="4"
@@ -30,24 +30,26 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="MultiNote"
-            android:textColor="#EFDA90"
+            android:textColor="#000"
             android:textSize="30dp"
             android:textStyle="bold"></TextView>
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="21dp"
             android:layout_weight="1"
-            android:text="GiaLamGroup , 2022 "
-            android:textColor="#EFDA90"
+            android:text="Nhóm 20 "
+            android:textColor="#000"
             android:textSize="25dp"></TextView>
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="78dp"
             android:layout_weight="1"
-            android:text="V 1.0"
-            android:textColor="#EFDA90"
+            android:text="3120410264 Vũ Trung Kiên
+                           3120410514 Trực Gia Minh Thuận
+                            3120410262 Nguyễn Trung Kiên"
+            android:textColor="#000"
             android:textSize="25dp"></TextView>
 
 

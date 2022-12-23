@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BA6313"
+    android:background="#1e90ff"
     android:orientation="vertical"
     android:weightSum="10"
 
@@ -15,15 +15,16 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:padding="10dp">
+
         <TextView
             android:id="@+id/namenote"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:layout_marginLeft="10dp"
             android:gravity="center"
-            android:layout_centerInParent="true"
             android:text="Note Name"
-            android:textColor="#EFDA90"
+            android:textColor="#000"
             android:textSize="40sp"
             android:textStyle="bold">
 
@@ -34,8 +35,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:text="16/10/2002"
-            android:textColor="#EFDA90"
+            android:text="10/12/2022"
+            android:textColor="#000"
             android:textSize="15sp"></TextView>
 
 
@@ -49,7 +50,7 @@
         android:layout_height="0dp"
         android:layout_margin="15dp"
         android:layout_weight="8"
-        android:background="#EFDA90"
+        android:background="#00bfff"
         android:textSize="15sp"
         android:textStyle="normal"></EditText>
 
@@ -60,13 +61,14 @@
         android:layout_weight="1"
         android:padding="10dp"
         >
+
         <Button
-            android:background="@drawable/button"
             android:id="@+id/confirm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/button"
             android:text="Xác Nhận"
-          ></Button>
+            android:textColor="#000"></Button>
 
         <Button
             android:id="@+id/exit"
@@ -75,6 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:textColor="#000"
             ></Button>
     </RelativeLayout>
 

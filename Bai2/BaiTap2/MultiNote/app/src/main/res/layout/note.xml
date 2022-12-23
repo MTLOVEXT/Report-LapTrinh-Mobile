@@ -17,7 +17,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#EFDA90"
+            android:background="#1e90ff"
             android:padding="10dp">
 
             <TextView
@@ -28,7 +28,8 @@
                 android:maxLength="20"
                 android:text="Cuoc song vo vi"
                 android:textSize="30sp"
-                android:textStyle="bold">
+                android:textStyle="bold"
+                android:textColor="#000">
 
             </TextView>
 
@@ -40,7 +41,8 @@
                 android:layout_toRightOf="@+id/date"
                 android:text="Number"
                 android:textSize="15dp"
-                android:textStyle="italic"></TextView>
+                android:textStyle="italic"
+                android:textColor="#000"></TextView>
 
             <TextView
                 android:id="@+id/date"
@@ -49,9 +51,10 @@
                 android:layout_below="@+id/title"
                 android:layout_marginLeft="10dp"
                 android:paddingRight="10dp"
-                android:text="Day 2 : 16/10/2002"
+                android:text="Day 2 : 10/12/2022"
                 android:textSize="15sp"
-                android:textStyle="italic"></TextView>
+                android:textStyle="italic"
+                android:textColor="#000"></TextView>
 
             <TextView
                 android:id="@+id/content"
@@ -61,7 +64,8 @@
                 android:layout_marginLeft="10dp"
                 android:maxLength="250"
                 android:maxHeight="50dp"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed aliquam est. Donec ultrices ipsum non ligula luctus, nec commodo neque fringilla. Donec ut varius sapien, ac gravida ipsum. Fusce accumsan finibus enim, vitae scelerisque ligula. Vivamus et tristique massa. Curabitur egestas, ex eget lobortis rutrum, ex nulla fringilla felis, porta tristique leo sapien at magna. Vivamus lobortis dignissim nunc sit amet dictum. Sed mollis leo ante, ac congue dui lacinia vehicula. Fusce sed nunc metus. Fusce suscipit dignissim justo, vitae"></TextView>
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed aliquam est. Donec ultrices ipsum non ligula luctus, nec commodo neque fringilla. Donec ut varius sapien, ac gravida ipsum. Fusce accumsan finibus enim, vitae scelerisque ligula. Vivamus et tristique massa. Curabitur egestas, ex eget lobortis rutrum, ex nulla fringilla felis, porta tristique leo sapien at magna. Vivamus lobortis dignissim nunc sit amet dictum. Sed mollis leo ante, ac congue dui lacinia vehicula. Fusce sed nunc metus. Fusce suscipit dignissim justo, vitae"
+                android:textColor="#000"></TextView>
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>

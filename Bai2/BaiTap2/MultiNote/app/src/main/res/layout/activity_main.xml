@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.MainActivity"
-    android:background="#D68336">
+    android:background="#40e0d0">
 
     <ListView
         android:divider="@null"
