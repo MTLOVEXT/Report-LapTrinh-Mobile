@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BA6313"
+    android:orientation="vertical"
+    android:weightSum="10"
+
+    tools:context=".Activity.AddNoteActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/editnamenote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="Note Name"
+            android:textColor="#EFDA90"
+            android:textSize="40sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/editdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="16/10/2002"
+            android:textColor="#EFDA90"
+            android:textSize="15sp"></TextView>
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/editcontent"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:layout_weight="8"
+        android:background="#EFDA90"
+        android:textSize="15sp"
+        android:textStyle="normal"></EditText>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        >
+
+        <Button
+            android:id="@+id/editconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Xác Nhận"></Button>
+
+        <Button
+            android:id="@+id/editexit"
+            android:background="@drawable/button"
+            android:text="Hủy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            ></Button>
+    </RelativeLayout>
+
+</LinearLayout>

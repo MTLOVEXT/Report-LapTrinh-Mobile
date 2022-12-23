@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BaiTap1</string>
+    <string name="tablelayout_example">TableLayout Example</string>
+    <string name="more_information">More information</string>
+</resources>
