@@ -14,12 +14,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="121dp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:text="Know Your Government"
-        android:textSize="30dp" />
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="125dp"
+        android:text="Thông tin "
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView2"
@@ -31,6 +31,6 @@
         android:gravity="center"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:text="Nhóm 2\n Võ Trần Tấn Lộc - 3120410299\n Nguyễn Anh Kiệt - 3120410269"
+        android:text="Nhóm 20\n 3120410264 Vũ Trung Kiên\n 3120410514 Trực Gia Minh Thuận\n 3120410262 Nguyễn Trung Kiên"
         android:textSize="20dp" />
 </RelativeLayout>

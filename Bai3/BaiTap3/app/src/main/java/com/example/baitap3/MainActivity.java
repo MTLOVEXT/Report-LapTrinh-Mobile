@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                new ReadData().execute("https://vnexpress.net/rss/tam-su.rss");
+                new ReadData().execute("https://vnexpress.net/rss/tin-moi-nhat.rss");
             }
         });
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
